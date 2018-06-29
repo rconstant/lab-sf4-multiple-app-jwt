@@ -21,7 +21,7 @@ Generate the SSH keys :
 
 Note: You can create a user with a simple curl command like this:
 
-    curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/users -d '{"username":"johndoe","password":"test"}'
+    curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/users -d '{"username":"johndoe","plainPassword":"test"}'
 
 2. Obtain the token
 
